@@ -1,2 +1,2 @@
 # odin-recipes
-Recipe-Webpage
+Learning HTML by doing a Recipe - Webpage
