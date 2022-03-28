@@ -1,5 +1,6 @@
-#heading-article h1 {
-    font-family: sans-serif;
+#heading-article h1,
+#heading-article-lasagna h1 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 32px;
 }
@@ -7,7 +8,38 @@
 #recipes a {
     text-decoration: underline;
     color: black;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: italic;
+}
+
+#heading-lasagna-description h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+
+#heading-lasagna-description p {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ingredients-lasagna,
+#recipe {   
+    padding-left: 18px;
+}
+
+#ingredients-lasagna h3,
+#recipe h3 {
+    font-size: 22px;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ingredients-lasagna li,
+#recipe li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
