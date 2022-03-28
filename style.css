@@ -1,5 +1,6 @@
 #heading-article h1,
-#heading-article-lasagna h1 {
+#heading-article-lasagna h1,
+#heading-article-spaghetti h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 32px;
@@ -13,24 +14,28 @@
     font-style: italic;
 }
 
-#heading-lasagna-description h2 {
+#heading-lasagna-description h2,
+#heading-spaghetti-description h2 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 22px;
 }
 
-#heading-lasagna-description p {
+#heading-lasagna-description p,
+#heading-spaghetti-description p {
     text-align: center;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: a;
 }
 
 #ingredients-lasagna,
+#ingredients-spaghetti,
 #recipe {   
     padding-left: 18px;
 }
 
 #ingredients-lasagna h3,
+#ingredients-spaghetti h3,
 #recipe h3 {
     font-size: 22px;
     text-decoration: underline;
@@ -39,7 +44,14 @@
 }
 
 #ingredients-lasagna li,
+#ingredients-spaghetti li,
 #recipe li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+#recipe-lasagna,
+#recipe-spaghetti {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
